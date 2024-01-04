@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+.todo{
+  width: 100%;
+  max-width: 540px;
+  margin: 100px auto 20px;
+  padding: 20px;
+  border-radius: 10px;
+  outline: 10px solid lightblue;
+  min-height: 100px;
+  overflow: hidden;
+  height: fit-content;
+}
+.todo h1{
+    display: flex;
+    justify-content: center;
+    font-weight:900;
+}
+/* input field for add user */
+.input-row{
+    margin-top: 2%;
+    display: flex;
+}
+.input-row input{
+    width: 88%;
+    height: 30px;
+    padding: 10px;
+}
+.input-row button{
+    width: 15%;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+}
+/* end */
+/* search input */
+.search{
+    float: right;
+    margin: 3% 0;
+}
+.search input{
+    padding: 2%;
+}
+/* end */
+/* user details */
+.list{
+    width: 100%;
+    text-align: left;
+    margin-top: 5%;
+}
+.list td{
+    padding: 10px 0;
+}
+th{
+    padding-right: 10px;
+}
+i{
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-inline: 1.5%;
+}
+.fa-edit{
+    background-color:violet;
+    color: white;
+}
+.fa-trash-o{
+    color: white;
+    background-color: red;
+}
+/* end */

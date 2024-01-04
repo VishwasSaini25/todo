@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo">
+            <h1>Search in Todo List App</h1>
+            <div class="input-row">
+                <input type="text" name="name" id="input-name" placeholder="Enter your name">
+                <button id="addUser">Add User</button>
+            </div>
+            <div class="search">
+                <input type="search" name="search-name" id="search" placeholder="Search...">
+            </div>
+            <table class="list">
+                <thead>
+                    <tr class="heading">
+                        <th scope="col">#</th>
+                        <th scope="col">Your Name</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="details">  
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
